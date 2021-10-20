@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Buy Art Supplies</title>
+    <title>The Artist's Drugs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="icon" href="images/art.jpeg" />
+    <link rel="icon" href="images/brush.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -63,8 +63,91 @@
       </nav>
     </div>
 
+    <section id="carousel">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/new.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black">The Artist's Drug Paintbrushes</h5>
+              <p style="color: black">
+                Made with the finest quality materials and is vegan-friendly!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/new2-cropped.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black">Pigmented Colour Pencils</h5>
+              <p style="color: black">
+                The colour pigment in our exclusive pencils are 100% natural.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/new3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black">The Beginner Starter-Pack</h5>
+              <p style="color: black">
+                It's easy to use and has a very clear instruction manual for
+                guidance
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
     <section id="description">
-      <div class="container-lg">
+      <div class="container-lg p-5">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
@@ -77,7 +160,7 @@
               the necessary tools for a beginning artist and professional
               artists. Perfect art set for adults and kids.
             </p>
-            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <a href="#pricing" class="btn btn-primary btn-lg">Buy Now</a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
             <img class="img-fluid" src="images/pencil.jpeg" alt="" />
@@ -87,7 +170,7 @@
     </section>
 
     <section id="description">
-      <div class="container-lg">
+      <div class="container-lg p-5">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
@@ -101,7 +184,7 @@
               aspects of its 1.8-2.5mm nib. Writes on Metal, Glass, Plastic,
               Stone, Fabric, Terracotta, Porcelain, and many more
             </p>
-            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <a href="#pricing" class="btn btn-primary btn-lg">Buy Now</a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
             <img class="img-fluid" src="images/posco.jpg" alt="" />
@@ -111,7 +194,7 @@
     </section>
 
     <section id="description">
-      <div class="container-lg">
+      <div class="container-lg p-5">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
@@ -124,7 +207,7 @@
               sketching or painting on larger canvases! Comfortably transporting
               the easel for artists!
             </p>
-            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <a href="#pricing" class="btn btn-primary btn-lg">Buy Now</a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
             <img class="img-fluid" src="images/easel.jpg" alt="" />
@@ -134,7 +217,7 @@
     </section>
 
     <section id="extras">
-      <div class="container-md">
+      <div class="container-md p-5">
         <div class="text-center">
           <h2>Another thing we offer...</h2>
           <p class="lead text-muted">Everything you'll ever need!</p>
@@ -313,13 +396,13 @@
     </section>
 
     <section id="reviews" class="bg-light">
-      <div class="container-lg">
+      <div class="container-lg p-1">
         <div class="text-center">
-          <h2><i class="bi bi-card-list"></i> Art Supplies Reviews</h2>
+          <h2><i class="bi bi-emoji-smile"></i> Art Supplies Reviews</h2>
           <p class="lead">What my buyers have said about my products...</p>
         </div>
 
-        <div class="row justify-content-center my-5">
+        <div class="row justify-content-center my-5 p-5">
           <div class="col-lg-8">
             <div class="list-group">
               <div class="list-group-item py-3">
@@ -378,66 +461,122 @@
     </section>
 
     <section id="query form">
-      <div class="container-lg">
-        <div class="text-center">
-          <h2>Contact Me:</h2>
-          <p class="lead">
-            Questions or queries? Fill out the form to contact me directly
-          </p>
-        </div>
-        <div class="row justify-content-center my-5">
-          <div class="col-lg-6">
-            <form>
-              <label for="email" class="form-label">Email address:</label>
-              <div class="input-group mb-4">
-                <span class="input-group-text">
-                  <i class="bi bi-envelope-fill text-secondary"></i>
-                </span>
-                <input
-                  type="text"
-                  id="email"
-                  class="form-control"
-                  placeholder="e.g. Haniah@example.com"
-                />
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary m-2"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Query Form
+      </button>
+
+      <!-- Modal -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container-lg">
+                <div class="text-center">
+                  <h2>Contact Me:</h2>
+                  <p class="lead">
+                    Questions or queries? Fill out the form to contact me
+                    directly
+                  </p>
+                </div>
+                <div class="row justify-content-center my-5">
+                  <div class="col-lg-6">
+                    <form>
+                      <label for="email" class="form-label"
+                        >Email address:</label
+                      >
+                      <div class="input-group mb-4">
+                        <span class="input-group-text">
+                          <i class="bi bi-envelope-fill text-secondary"></i>
+                        </span>
+                        <input
+                          type="text"
+                          id="email"
+                          class="form-control"
+                          placeholder="e.g. Haniah@example.com"
+                        />
+                      </div>
+                      <label for="name" class="form-label">Name:</label>
+                      <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                          <i class="bi bi-person-fill text-secondary"></i>
+                        </span>
+                        <input
+                          type="text"
+                          id="name"
+                          class="form-control"
+                          placeholder="e.g. Haniah"
+                        />
+                      </div>
+                      <label for="subject" class="form-label"
+                        >What are your questions?</label
+                      >
+                      <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                          <i
+                            class="bi bi-chat-right-dots-fill text-secondary"
+                          ></i>
+                        </span>
+                        <select class="form-select" id="subject">
+                          <option value="pricing" selected>
+                            Pricing negotiations
+                          </option>
+                          <option value="content">Product query</option>
+                          <option value="other">Other query</option>
+                        </select>
+                      </div>
+                      <div class="mb-4 mt-5 form-floating">
+                        <textarea
+                          class="form-control"
+                          id="query"
+                          style="height: 140px"
+                          placeholder="query"
+                        ></textarea>
+                        <label for="query">Write something here</label>
+                      </div>
+                      <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-primary">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
-              <label for="name" class="form-label">Name:</label>
-              <div class="mb-4 input-group">
-                <span class="input-group-text">
-                  <i class="bi bi-person-fill text-secondary"></i>
-                </span>
-                <input
-                  type="text"
-                  id="name"
-                  class="form-control"
-                  placeholder="e.g. Haniah"
-                />
-              </div>
-              <label for="subject" class="form-label"
-                >What are your questions?</label
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
               >
-              <div class="mb-4 input-group">
-                <span class="input-group-text">
-                  <i class="bi bi-chat-right-dots-fill text-secondary"></i>
-                </span>
-                <select class="form-select" id="subject">
-                  <option value="pricing" selected>Pricing negotiations</option>
-                  <option value="content">Product query</option>
-                  <option value="other">Other query</option>
-                </select>
-              </div>
-              <div class="mb-4 mt-5 form-floating">
-                <textarea
-                  class="form-control"
-                  id="query"
-                  style="height: 140px"
-                  placeholder="query"
-                ></textarea>
-                <label for="query">Write something here</label>
-              </div>
-              <div class="mb-4 text-center">
-                <button type="submit" class="btn btn-secondary">Submit</button>
-              </div>
-            </form>
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
           </div>
         </div>
       </div>
